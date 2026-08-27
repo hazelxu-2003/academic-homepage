@@ -37,11 +37,11 @@ python3 -m http.server 8090
 ## Deployment
 
 This site is deployed via **Cloudflare Pages**, connected to a GitHub repository at
-`https://github.com/xuaoxue81-eng/academic-homepage`. Each `git push` to the `main` branch triggers a fresh build and deploy.
+`https://github.com/hazelxu-2003/academic-homepage`. Each `git push` to the `main` branch triggers a fresh build and deploy.
 
 Initial setup:
 
-1. Create an empty GitHub repository named `academic-homepage` under the `xuaoxue81-eng` account.
+1. Create an empty GitHub repository named `academic-homepage` under the `hazelxu-2003` account.
 2. In Cloudflare dashboard, create a Pages project, connect to the GitHub repo, leave build settings at default (Framework preset: None; build command: empty; output dir: `/`).
 3. Add the custom domain `academic-homepage.hazalxu.click` in Cloudflare Pages → Custom domains.
 
