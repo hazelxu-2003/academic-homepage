@@ -1,14 +1,37 @@
 [
-  {
-    "date": "2025-01-01",
-    "content": "Welcome to my new academic homepage! This template is available on GitHub.",
-    "links": [
-        { "text": "GitHub", "url": "https://github.com/yihangtao/AcaNova-X" }
-    ]
-  },
-  {
-     "date": "2024-12-15",
-     "content": "One paper titled 'A Novel Approach to AI' was accepted to CVPR 2025!",
-     "links": []
-  }
+    {
+        "date": "2026-08-26",
+        "content": "Launched my new academic homepage. Apply for PhD programs starting Fall 2027 in environmental economics, energy & climate policy, and urban policy.",
+        "links": [
+            {
+                "text": "Homepage",
+                "url": "https://academic-homepage.hazalxu.click/"
+            }
+        ]
+    },
+    {
+        "date": "2026-08-22",
+        "content": "Started as Teaching Assistant for Statistics and Program Evaluation (iMEP, Duke Kunshan) under Prof. Xiao Wang.",
+        "links": []
+    },
+    {
+        "date": "2026-05",
+        "content": "Completed my master's thesis on land-use and environmental responses to economic shocks.",
+        "links": []
+    },
+    {
+        "date": "2026-01",
+        "content": "Joined Prof. Wumeng He's research group at Duke Kunshan as a geospatial data research assistant.",
+        "links": []
+    },
+    {
+        "date": "2025-12",
+        "content": "Completed a mixed-methods field study on traditional ecological practice, tourism, and market pressures in mountain tea villages.",
+        "links": []
+    },
+    {
+        "date": "2025-08",
+        "content": "Started the Master of Environmental Policy (iMEP) at Duke University · Duke Kunshan University.",
+        "links": []
+    }
 ]

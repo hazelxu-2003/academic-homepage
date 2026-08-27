@@ -1,12 +1,27 @@
 [
   {
     "date": "2025",
-    "title": "Best Paper Award",
-    "org": "International Conference on Computer Vision (ICCV)"
+    "title": "Top-100 Undergraduate Thesis & Scholarship (百优本科毕业论文)",
+    "org": "Jiangxi Normal University"
   },
   {
-    "date": "2024",
-    "title": "Outstanding PhD Student Award",
-    "org": "Your University"
+    "date": "2025",
+    "title": "Graduating Three-Good Student (毕业三好学生)",
+    "org": "Jiangxi Normal University"
+  },
+  {
+    "date": "2023-09",
+    "title": "National GIS Application Level 1 (国家GIS应用水平考试一级)",
+    "org": "Ministry of Industry and Information Technology, China"
+  },
+  {
+    "date": "2022-2025",
+    "title": "Comprehensive Quality Scholarship, Second-class (综合奖学金二等奖)",
+    "org": "Jiangxi Normal University (Top 10%)"
+  },
+  {
+    "date": "2022",
+    "title": "Outstanding Undergraduate Student Cadre (优秀学生干部)",
+    "org": "Jiangxi Normal University"
   }
 ]

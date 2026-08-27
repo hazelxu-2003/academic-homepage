@@ -574,7 +574,7 @@ function getVenueShortName(venueStr, year) {
     if (s.includes('TNSE')) return 'IEEE TNSE' + revisionSuffix;
     if (s.includes('IOTJ') || s.includes('IoTJ')) return 'IEEE IoTJ' + revisionSuffix;
 
-    return s || 'Preprint';
+    return '';
 }
 
 function getVenueFullName(venueStr) {
@@ -605,7 +605,7 @@ function getVenueFullName(venueStr) {
 
     if (s.toLowerCase().includes('arxiv')) return 'arXiv preprint';
 
-    return s;
+    return venueStr;
 }
 
 function shouldShowVenueTag(venueStr, fullVenueName, venueShort) {
