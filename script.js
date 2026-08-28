@@ -409,27 +409,25 @@ function renderHonorsItems(honorsData, container) {
         const honorElement = document.createElement('div');
         honorElement.className = 'honor-item';
 
-        const yearElement = document.createElement('div');
-        yearElement.className = 'honor-year';
-        yearElement.textContent = honorItem.date || '';
-
-        const contentElement = document.createElement('div');
-        contentElement.className = 'honor-content';
-
         const titleElement = document.createElement('h3');
+        titleElement.className = 'font-semibold text-primary';
         titleElement.textContent = honorItem.title || '';
-        contentElement.appendChild(titleElement);
+        honorElement.appendChild(titleElement);
+
+        const dateElement = document.createElement('p');
+        dateElement.className = 'text-sm text-accent font-medium';
+        dateElement.textContent = honorItem.date || '';
+        honorElement.appendChild(dateElement);
 
         const descElement = document.createElement('p');
+        descElement.className = 'text-sm text-neutral-600 mt-1';
         if (honorItem.description) {
             descElement.innerHTML = honorItem.description;
         } else {
             descElement.textContent = honorItem.org || '';
         }
-        contentElement.appendChild(descElement);
+        honorElement.appendChild(descElement);
 
-        honorElement.appendChild(yearElement);
-        honorElement.appendChild(contentElement);
         container.appendChild(honorElement);
     });
 }

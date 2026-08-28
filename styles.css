@@ -522,32 +522,7 @@ details summary {
 }
 
 .honor-item {
-    display: grid;
-    grid-template-columns: 100px 1fr;
-    gap: 1.5rem;
-    align-items: baseline;
-    margin-bottom: 1.5rem;
-}
-
-.honor-year {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 700;
-    font-size: 0.9rem;
-    color: #d4a562;
-    text-align: right;
-    white-space: nowrap;
-}
-
-.honor-content h3 {
-    font-size: 1rem;
-    font-weight: 600;
-    color: #1e293b;
-    margin: 0 0 0.2rem;
-}
-
-.honor-content p {
-    margin: 0;
-    color: #475569;
+    margin-bottom: 1rem;
 }
 
 @media (max-width: 640px) {
@@ -555,14 +530,9 @@ details summary {
         padding-top: 5rem;
     }
 
-    .news-item,
-    .honor-item {
+    .news-item {
         grid-template-columns: 1fr;
         gap: 0.4rem;
-    }
-
-    .honor-year {
-        text-align: left;
     }
 
     .pub-list-item,
