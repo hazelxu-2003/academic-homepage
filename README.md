@@ -1,6 +1,6 @@
 # Aoxue XU: Academic Homepage
 
-Personal academic homepage for **Aoxue XU (徐鏊雪)**, Master of Environmental Policy (iMEP) candidate at Duke University · Duke Kunshan University. Built on top of [AcaNova-X](https://github.com/yihangtao/AcaNova-X) v1.1.0.
+Personal academic homepage for **Aoxue XU**, Master of Environmental Policy (iMEP) candidate at Duke University · Duke Kunshan University. Built on top of [AcaNova-X](https://github.com/yihangtao/AcaNova-X) v1.1.0.
 
 Live site: **https://academic-homepage.hazalxu.click/**
 
