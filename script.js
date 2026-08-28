@@ -377,7 +377,7 @@ function renderNewsItems(newsData, container) {
         contentElement.className = 'news-content';
 
         const textSpan = document.createElement('span');
-        textSpan.innerHTML = '🎉 ' + (newsItem.content || '');
+        textSpan.innerHTML = newsItem.content || '';
         contentElement.appendChild(textSpan);
 
         if (Array.isArray(newsItem.links)) {
